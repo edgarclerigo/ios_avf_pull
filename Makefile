@@ -10,6 +10,8 @@ ivf_pull: ivf_pull.m uclop.h
 		-framework AVFoundation \
 		-I /opt/homebrew/opt/libjpeg-turbo/include \
 		-L /opt/homebrew/opt/libjpeg-turbo/lib \
+		-I /opt/homebrew/opt/nanomsg/include \
+		-L /opt/homebrew/opt/nanomsg/lib \
 		-lturbojpeg \
 		-lnanomsg \
 		-D GitCommit="\"$(GIT_COMMIT)\""\
