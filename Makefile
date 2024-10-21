@@ -8,8 +8,8 @@ ivf_pull: ivf_pull.m uclop.h
 		-framework CoreMediaIO \
 		-framework CoreVideo \
 		-framework AVFoundation \
-		-I /usr/local/opt/libjpeg-turbo/include \
-		-L/usr/local/opt/libjpeg-turbo/lib \
+		-I /opt/homebrew/opt/libjpeg-turbo/include \
+		-L /opt/homebrew/opt/libjpeg-turbo/lib \
 		-lturbojpeg \
 		-lnanomsg \
 		-D GitCommit="\"$(GIT_COMMIT)\""\
